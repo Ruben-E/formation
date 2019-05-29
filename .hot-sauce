@@ -37,3 +37,6 @@ for font in ${NERDFONTS[@]}; do
         print_muted "${indent}✓ $font already installed. Skipped."
     fi
 done
+
+chsh -s /bin/zsh
+npm install --global pure-prompt
