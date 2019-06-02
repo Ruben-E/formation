@@ -38,5 +38,6 @@ for font in ${NERDFONTS[@]}; do
     fi
 done
 
-chsh -s /bin/zsh
+sudo sh -c "echo $(which zsh) >> /etc/shells"
+chsh -s $(which zsh)
 npm install --global pure-prompt
