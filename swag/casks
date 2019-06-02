@@ -10,7 +10,7 @@ jetbrains-toolbox
 1password
 brave-browser
 balenaetcher
-firefox-developer-edition
+homebrew/cask-versions/firefox-developer-edition
 flux
 java
 slack
