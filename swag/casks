@@ -15,7 +15,7 @@ flux
 java
 slack
 postman
-steelseries-exactmouse-tool
+homebrew/cask-drivers/steelseries-exactmouse-tool
 vlc
 iterm2
 virtualbox
@@ -24,7 +24,6 @@ aerial
 docker
 spotify
 visual-studio-code
-slack
 insomnia
 synology-drive
 google-chrome
