@@ -10,7 +10,6 @@ htop
 wget
 jenv
 jq
-maven
 pinentry
 pinentry-mac
 gnupg
