@@ -128,6 +128,13 @@ else
 	print_success_muted "Homebrew already installed. Skipping."
 fi
 
+tap_brew "homebrew/cask-versions"
+tap_brew "homebrew/cask-drivers"
+
+# step "Tapping homebrew/cask-versions"
+# brew tap homebrew/cask-versions
+# print_success "homebrew/cask-versions Tapped"
+
 if brew list | grep -Fq brew-cask; then
 	step "Uninstalling old Homebrew-Cask…"
 	brew uninstall --force brew-cask

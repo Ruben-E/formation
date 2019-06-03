@@ -10,12 +10,12 @@ jetbrains-toolbox
 1password
 brave-browser
 balenaetcher
-homebrew/cask-versions/firefox-developer-edition
+firefox-developer-edition
 flux
 java
 slack
 postman
-homebrew/cask-drivers/steelseries-exactmouse-tool
+steelseries-exactmouse-tool
 vlc
 alfred
 aerial

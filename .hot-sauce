@@ -6,15 +6,17 @@ NERDFONTS_RELEASE=$(curl -L -s -H 'Accept: application/json' https://github.com/
 NERDFONTS_VERSION=$(get_github_version $NERDFONTS_RELEASE)
 
 DIRECTORIES=(
-    $HOME/code
-    $HOME/projects
+    $HOME/Code
+    $HOME/Projects
+    $HOME/NAS
+    $HOME/NAS/Personal
+    $HOME/NAS/Shared
     $HOME/Desktop/screenshots
 )
 
 NERDFONTS=(
     DroidSansMono
     FiraCode
-    Fira
     Hack
     Monoid
     AnonymousPro
@@ -38,6 +40,6 @@ for font in ${NERDFONTS[@]}; do
     fi
 done
 
-sudo sh -c "echo $(which zsh) >> /etc/shells"
-chsh -s $(which zsh)
-npm install --global pure-prompt
+# sudo sh -c "echo $(which zsh) >> /etc/shells"
+# chsh -s $(which zsh)
+# npm install --global pure-prompt
