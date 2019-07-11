@@ -130,6 +130,7 @@ fi
 
 tap_brew "homebrew/cask-versions"
 tap_brew "homebrew/cask-drivers"
+tap_brew "adoptopenjdk/openjdk"
 
 # step "Tapping homebrew/cask-versions"
 # brew tap homebrew/cask-versions

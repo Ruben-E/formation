@@ -13,6 +13,7 @@ balenaetcher
 firefox-developer-edition
 flux
 java
+adoptopenjdk/openjdk/adoptopenjdk8
 slack
 postman
 steelseries-exactmouse-tool
@@ -33,3 +34,9 @@ whatsapp
 boostnote
 contexts
 little-snitch
+bettertouchtool
+logitech-options
+tunnelblick
+google-cloud-sdk
+blockblock
+knockknock
